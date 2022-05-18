@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>01d@2x.png</file>
+        <file>02d@2x.png</file>
+        <file>03d@2x.png</file>
+        <file>04d@2x.png</file>
+        <file>09d@2x.png</file>
+        <file>10d@2x.png</file>
+        <file>11d@2x.png</file>
+        <file>13d@2x.png</file>
+        <file>50d@2x.png</file>
+    </qresource>
+</RCC>

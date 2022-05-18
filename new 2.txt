@@ -1,0 +1,41 @@
+    ui->Longueur->hide();
+    ui->Largeur->hide();
+    ui->Rayon->hide();
+    ui->Base->hide();
+    ui->Hauteur->hide();	
+
+
+switch(ui->comboBox->currentIndex()){
+    case 0:
+        ui->Longueur->hide();
+        ui->Largeur->hide();
+        ui->Rayon->hide();
+        ui->label->clear();
+        ui->Base->hide();
+        ui->Hauteur->hide();
+        break;
+    case 1:
+        ui->label->setPixmap(QPixmap(":images/Rectangle.png"));
+        ui->Longueur->show();
+        ui->Largeur->show();
+        ui->Rayon->hide();
+        ui->Base->hide();
+        ui->Hauteur->hide();
+        break;
+    case 2:
+        ui->label->setPixmap(QPixmap(":images/Cercle.png"));
+        ui->Longueur->hide();
+        ui->Largeur->hide();
+        ui->Rayon->show();
+        ui->Base->hide();
+        ui->Hauteur->hide();
+        break;
+    case 3:
+        ui->label->setPixmap(QPixmap(":images/Triangle.png"));
+        ui->Longueur->hide();
+        ui->Largeur->hide();
+        ui->Rayon->hide();
+        ui->Base->show();
+        ui->Hauteur->show();
+        break;
+    }
